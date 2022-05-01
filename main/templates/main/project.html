@@ -1,0 +1,224 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="career guidance,education,career devolpment,machine learning,modern,bootstrap4">
+  
+
+  <title>CareerDarshak</title>
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href=" {% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %} ">
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href=" {% static 'assets/plugins/themify/css/themify-icons.css' %} ">
+  <link rel="stylesheet" href=" {% static 'assets/plugins/fontawesome/css/all.css' %} ">
+  <link rel="stylesheet" href=" {% static 'assets/plugins/magnific-popup/dist/magnific-popup.css' %} ">
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href=" {% static 'assets/plugins/slick-carousel/slick/slick.css' %} ">
+  <link rel="stylesheet" href=" {% static 'assets/plugins/slick-carousel/slick/slick-theme.css' %} ">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href=" {% static 'assets/css/style.css' %} ">
+
+  <link rel="shortcut icon" type="image/png" href="{% static 'assets/images/favicon.ico' %}"/>
+
+
+</head>
+
+<body>
+
+<!-- Header Start --> 
+
+<header class="navigation">
+	<div class="header-top ">
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<div class="col-lg-2 col-md-4">
+					<div class="header-top-socials text-center text-lg-left text-md-left">
+						<a href="https://github.com/shubh-21/CareerDarshak" target="_blank"><i class="ti-github"></i></a>
+						<a href="https://www.linkedin.com/in/shubham-acharekar/" target="_blank"><i class="ti-linkedin"></i></a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-lg  py-4" id="navbar">
+		<div class="container">
+		  <a class="navbar-brand" href=" {% url 'main:index' %} ">
+		  	Career<span>Darshak</span>
+		  </a>
+
+		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="fa fa-bars"></span>
+		  </button>
+	  
+		  <div class="collapse navbar-collapse text-center" id="navbarsExample09">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item active">
+				<a class="nav-link" href=" {% url 'main:index' %} ">Home <span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item"><a class="nav-link" href=" {% url 'main:index' %} ">Introduction</a></li>
+			   <li class="nav-item"><a class="nav-link" href=" {% url 'main:project' %} ">Creative Thinking Test</a></li>
+
+			   <li class="nav-item"><a class="nav-link" href=" # ">Questionnarie</a></li>
+			   
+			</ul>
+			<form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
+				<a href=" {% url 'main:contact' %} " class="btn btn-solid-border btn-round-full">Get a Quote</a>
+			  </form>
+		  </div>
+		</div>
+	</nav>
+</header>
+
+<!-- Header Close --> 
+
+<div class="main-wrapper ">
+<section class="page-title bg-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block text-center">
+          <span class="text-white">Creative Thinking Test</span>
+          <h1 class="text-capitalize mb-4 text-lg">Test Your Creativity</h1>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href=" {% url 'main:index' %} " class="text-white">Home</a></li>
+            <li class="list-inline-item"><span class="text-white">/</span></li>
+            <li class="list-inline-item"><a href="#" class="text-white-50">Creative Thinking Test</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- section portfolio start -->
+<section class="section portfolio pb-0">
+	<div class="involveme_embed" data-project="iq-test-ea13">
+		<script src="https://shubhtech.involve.me/embed"></script>
+	</div>
+
+	<div class="row">
+		<div class="form-group col-md-5"></div>
+		<div class="form-group col-md-3">
+			<button onclick="submit()" id="submit" class="btn btn-main center" name="submit" type="submit" >Go to Questionnarie</button>
+		</div>
+		<div class="form-group col-md-5"></div>
+
+	</div>
+
+</section>
+
+<!-- section portfolio END -->
+
+
+<!-- footer Start -->
+<footer class="footer section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="widget">
+					<h4 class="text-capitalize mb-4">Company</h4>
+
+					<ul class="list-unstyled footer-menu lh-35">
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Support</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-6 col-sm-6">
+				<div class="widget">
+					<h4 class="text-capitalize mb-4">Quick Links</h4>
+
+					<ul class="list-unstyled footer-menu lh-35">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Team</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 ml-auto col-sm-6">
+				<div class="widget">
+					<div class="logo mb-4">
+						<h3>Career<span>Darshak</span></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-btm pt-4">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="copyright">
+						&copy; Copyright Reserved to <span class="text-color">CareerDarshak.</span>
+					</div>
+				</div>
+				<div class="col-lg-6 text-left text-lg-right">
+					<ul class="list-inline footer-socials">
+						<li class="list-inline-item"><a href="https://github.com/shubh-21/CareerDarshak"><i class="ti-github mr-2"></i>Github</a></li>
+						<li class="list-inline-item"><a href="https://www.linkedin.com/in/shubham-acharekar/"><i class="ti-linkedin mr-2 "></i>Linkedin</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+   
+    </div>
+
+    <!-- 
+    Essential Scripts
+    =====================================-->
+
+    
+    <!-- Main jQuery -->
+    <script src=" {% static 'assets/plugins/jquery/jquery.js' %} "></script>
+    <script src=" {% static 'assets/js/contact.js' %} "></script>
+    <!-- Bootstrap 4.3.1 -->
+    <script src=" {% static 'assets/plugins/bootstrap/js/popper.js' %} "></script>
+    <script src=" {% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %} "></script>
+   <!--  Magnific Popup-->
+    <script src=" {% static 'assets/plugins/magnific-popup/dist/jquery.magnific-popup.min.js' %} "></script>
+    <!-- Slick Slider -->
+    <script src=" {% static 'assets/plugins/slick-carousel/slick/slick.min.js' %} "></script>
+    <!-- Counterup -->
+    <script src=" {% static 'assets/plugins/counterup/jquery.waypoints.min.js' %} "></script>
+    <script src=" {% static 'assets/plugins/counterup/jquery.counterup.min.js' %} "></script>
+
+    <!-- Google Map -->
+    <script src=" {% static 'assets/plugins/google-map/map.js' %} "></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
+    
+    <script src=" {% static 'assets/js/script.js' %} "></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+	<script>
+        function submit(){
+			Swal.fire({
+				title: "Are You Sure?",
+    			text: "Have you completed the test?",
+    			icon: 'warning',
+  				showCancelButton: true,
+				  confirmButtonColor: '#3085d6',
+  				cancelButtonColor: '#d33',
+  				confirmButtonText: 'Yes !'
+			}).then((result) => {
+				if (result.isConfirmed) {
+					window.location.href="service"
+				}
+			});
+		}
+    </script>
+
+  </body>
+  </html>
