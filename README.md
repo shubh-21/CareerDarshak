@@ -15,5 +15,5 @@ Site Url : https://careerdarshak.pythonanywhere.com/
 - **Tushar Bhavsar**<br>
 
 - **Suyog Yadav**<br>
-[-] GitHub : <a href="https://github.com/ibrahimsar24">https://github.com/codekid007</a><br/>
+[-] GitHub : <a href="https://github.com/ibrahimsar24">https://github.com/suyogyadav404</a><br/>
 [-] Linkedin : <a href="https://github.com/Heisenberg3562">https://www.linkedin.com/in/suyogyadav</a>
